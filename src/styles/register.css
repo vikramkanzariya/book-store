@@ -1,0 +1,102 @@
+.register {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box .page{
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 10px 10px;
+    color: rgb(59, 18, 18);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box{
+    margin: 20px;
+    padding: 7px 7px;
+}
+
+.register .box1{
+    /* margin-top: 92px; */
+    height: 80px;
+    margin: auto;
+    width: 80vw;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 233, 233);
+    
+
+    >#search{
+        width: 422px;
+        height: 40px;
+        color: rgb(33, 33, 33);
+        border-radius: 6px;
+        outline: none;
+    }
+
+    .success{
+        height: 40px;
+        font-size: 16px;
+        max-width: 129px;
+        background-color: #80bf32;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .danger{
+        height: 40px;
+        font-size: 16px;
+        max-width: 129px;
+        background-color: #f14d54;
+        color: white;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+
+
+
+.forms{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-group{
+    height:auto ;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #e0cbcc;
+
+
+    >label{
+        text-align: left;
+        
+    }
+
+    >input{
+        height: 40px;
+        width: 300px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,131 @@
+.login {
+    text-align: center;
+}
+
+.box1{
+    background-color: rgb(235, 233, 233);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 80px;
+    width: 80vw;
+
+    #search{
+        width: 422px;
+        height: 40px;
+        color: rgb(33, 33, 33);
+        border-radius: 6px;
+        outline: none;
+        text-align:center;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .success{
+        height: 40px;
+        font-size: 16px;
+        max-width: 129px;
+        background-color: #80bf32;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .danger{
+        height: 40px;
+        font-size: 16px;
+        max-width: 129px;
+        background-color: #f14d54;
+        color: white;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.flat{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .page{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+
+.box2{
+    display:flex;
+    width: 80vw;
+    margin: auto;
+
+    .new{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height:400px;
+        margin: auto;
+        /* border: 2px solid black; */
+
+        >h3{
+            text-align: left;
+            font-size: 18px;
+            font-weight: 500;
+            border-bottom: 0.1px solid rgb(54, 54, 54);
+        }
+
+        >ul li{
+            text-align: left;
+            font-size: 15px;
+            font-family: "Roboto";
+            color: #212121;
+            margin: 10px;
+        }
+
+        .danger{
+            text-align: center;
+            height: 45px;
+            width: 320px;
+            background-color: #f14d54;
+            color: white;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+    
+     .registered{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height:400px;
+        margin: auto;
+
+        >h3{
+            text-align: left;
+            font-size: 18px;
+            font-weight: 500;
+            border-bottom: 0.1px solid rgb(54, 54, 54);
+        }
+
+        >label{
+            text-align: left;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        
+    }
+}
+
+
+
+
+
